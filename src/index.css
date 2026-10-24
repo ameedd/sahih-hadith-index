@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fdfbf7;
+  --fg: #1c1917;
+  --card: #f7f4ee;
+  --card-hover: #f3efe6;
+  --bd: #e6dfd5;
+  --ac: #0a6b4f;
+  --ac-hover: #08553f;
+  --ac-soft: rgba(10, 107, 79, 0.08);
+  --secondary: #1e3a8a;
+  --muted: #78716c;
+  --font-arabic: 'Amiri', 'Traditional Arabic', 'Scheherazade New', 'Times New Roman', serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+[data-theme="dark"] {
+  --bg: #141412;
+  --fg: #edece8;
+  --card: #1c1b18;
+  --card-hover: #24221e;
+  --bd: #302e29;
+  --ac: #34d399;
+  --ac-hover: #10b981;
+  --ac-soft: rgba(52, 211, 153, 0.12);
+  --secondary: #60a5fa;
+  --muted: #a8a29e;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.font-serif-title {
+  font-family: var(--font-serif);
+}
